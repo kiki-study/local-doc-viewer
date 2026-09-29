@@ -1,6 +1,6 @@
 # Local Doc Viewer プライバシーポリシー
 
-最終更新日: 2026 年 9 月 26 日
+最終更新日: 2026 年 9 月 29 日
 
 Local Doc Viewer（以下「本拡張機能」）は、ユーザーの情報を収集・送信しません。
 
@@ -15,6 +15,9 @@ Local Doc Viewer（以下「本拡張機能」）は、ユーザーの情報を�
 
 これらはすべてユーザーのパソコンの中だけで扱い、開発者や第三者のサーバーを含め、外部には一切送信しません。
 本拡張機能には通信する機能がなく、インターネット上の画像やスクリプトも読み込みません。
+
+HTML ファイルの中のスクリプトは、初期状態では実行しません。ユーザーがフォルダごとに実行を許可した場合に限り、隔離したページ（拡張機能やほかのフォルダには触れられないページ）で実行します。
+その場合、スクリプトがどう動くかはその HTML ファイル次第で、ファイルによっては外部と通信することがあります。信頼できるフォルダだけで許可してください。
 
 ## 第三者への提供
 
@@ -33,7 +36,7 @@ Local Doc Viewer（以下「本拡張機能」）は、ユーザーの情報を�
 
 # Local Doc Viewer Privacy Policy
 
-Last updated: September 26, 2026
+Last updated: September 29, 2026
 
 Local Doc Viewer ("the extension") does not collect or transmit any user data.
 
@@ -44,6 +47,8 @@ Local Doc Viewer ("the extension") does not collect or transmit any user data.
 - **.md files opened directly in Chrome** (only if you enable "Allow access to file URLs") are formatted in place on that page.
 
 All of this stays on your computer. Nothing is sent to the developer or any third party. The extension has no networking features and does not load images or scripts from the internet.
+
+Scripts inside HTML files are not run by default. They run only in folders where you explicitly allow them, inside an isolated page that cannot access the extension or other folders. What such scripts do depends on the HTML file itself, and some may communicate over the network, so allow scripts only for folders you trust.
 
 User data is never sold or shared with third parties. Removing a folder from the list deletes its reference, and uninstalling the extension deletes everything it stored in your browser.
 If this policy changes, this page will be updated along with the date above.
