@@ -8,7 +8,7 @@ A Chrome extension to browse, full-text search, and read the Markdown and HTML f
 - Requires no permissions. Files are read-only, and the extension itself never sends your files anywhere
 - Available in English and Japanese (follows Chrome's display language)
 
-Requires Chrome 147 or later.
+**[Install from the Chrome Web Store](https://chromewebstore.google.com/detail/aenecamccenmkmlpfgjgggjjiamcngfo)** (Chrome 147 or later)
 
 - [Privacy Policy](PRIVACY.md)
 - Bug reports and feature requests: [Issues](https://github.com/kiki-study/local-doc-viewer/issues)
@@ -23,7 +23,7 @@ Requires Chrome 147 or later.
 - 拡張機能の権限はありません。ファイルは読むだけで、拡張機能そのものがファイルの内容を外部に送ることはありません
 - 画面は日本語と英語に対応しています（Chrome の表示言語に従います）
 
-Chrome 147 以降で動きます。
+**[Chrome ウェブストアからインストール](https://chromewebstore.google.com/detail/aenecamccenmkmlpfgjgggjjiamcngfo)**（Chrome 147 以降）
 
 - [プライバシーポリシー](PRIVACY.md)
 - 不具合の報告・要望: [Issues](https://github.com/kiki-study/local-doc-viewer/issues)
